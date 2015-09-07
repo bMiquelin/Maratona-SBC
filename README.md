@@ -1,17 +1,10 @@
 # Maratona-SBC
 
-Resolução de algumas questões para treino da Maratona SBC
+## Resolução de algumas questões para treino da Maratona SBC
 
-1. Teste
+### Significado dos arquivos:
 
-	1 t1
+#### * Tal -> ae
 
-	2 t2
+#### * sdfsdfs -> ae22232
 
-	3 t3
-
-2. Teste2
-
-	* t1
-
-	* t2
