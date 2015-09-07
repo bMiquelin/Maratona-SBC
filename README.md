@@ -3,7 +3,6 @@
 
 ###### Relação dos arquivos:
 
-* Tal -> ae
 
-* sdfsdfs -> ae22232
-
+* portas.cpp	-> Aquecimento -> A
+* esquerda.cpp	-> Aquecimento -> B
