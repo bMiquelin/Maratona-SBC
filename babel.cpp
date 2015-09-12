@@ -28,7 +28,7 @@ int main()
 			if (p[i].destino == destino)
 			{
 				contador += p[i].conteudo.length();
-				cout << "FIM: " << contador;
+				cout << "FIM: " << contador << " com a palavra: " << p[i].conteudo;
 				break;
 			}
 			//BUSCA PALAVRA ACEITÁVEL
@@ -37,6 +37,8 @@ int main()
 				origem = p[i].destino;
 				contador += p[i].conteudo.length();
 				letra = p[i].conteudo.at(0);
+				cout << "Encontrou palavra! de tamanho " << p[i].conteudo.length() << " - " << p[i].conteudo << endl;
+				break;
 			}
 			//NÃO ENCONTROU
 			else if(i == 1999)
