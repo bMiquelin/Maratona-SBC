@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -10,12 +9,14 @@ using namespace std;
 */
 int main()
 {
-	while (true)
+	string str;
+	int dir, num;
+	cin >> num;
+	while (num != 0)
 	{
-		int dir = 0;
-		string str;
 		cin >> str;
-		for (unsigned i = 0; i < str.length(); ++i) str.at(i) = "D" ? dir++ : dir--;
+		dir = 0;
+		for (unsigned i = 0; i < str.length(); ++i) str.at(i) == 'D' ? dir++ : dir+= 3;
 		switch (dir % 4)
 		{
 		case 0:
@@ -32,6 +33,6 @@ int main()
 			break;
 		}
 		cout << endl;
+		cin >> num;
 	}
 }
-
