@@ -12,9 +12,12 @@ int main()
 			for (unsigned i = 0; i <= str.length()-1; i++) 
 				if (i == str.length() - 1)
 				{
-					str.erase(i, 1);
-					qt2--;
-					break;
+					for (int j = str.length()-1; i >= 0; i--) 
+					{
+						str.erase(i, 1);	
+						qt2--;
+						break;					
+					}
 				}
 				else if (str.at(i) < str.at(i+1))
 				{
