@@ -14,7 +14,8 @@ int main()
 		for (int i = 1; i <= N; i += c)
 		{
 			c += 2;
-			cout << i << " ";
+			if (i > 1) cout << " ";
+			cout << i;
 		}
 		cout << endl;
 		cin >> N;
